@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             $data = base64_encode(file_get_contents($imagePath));
 
-            $api_key = "jKTKqK6pyYwvcvx2RvJr";
+            $api_key = "###########";
             $model_endpoint = "fish-quality-grading/2";
             $url = "https://detect.roboflow.com/" . $model_endpoint
                 . "?api_key=" . $api_key
